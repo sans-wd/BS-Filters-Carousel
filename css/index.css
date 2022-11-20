@@ -1,0 +1,138 @@
+body{
+    margin: 0 auto;
+    padding: 0px;
+    background-color: #F2F2F2;
+}
+
+.spbtw{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.mualiml h1,h2{
+    font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 46px;
+/* identical to box height */
+
+text-align: center;
+
+/* Blue/Blue Main */
+
+color: #1A265C;
+
+}
+.card{
+    width: 100%;
+}
+.mul_img{
+    background-image: url(../img/image\ 18.png);
+    min-height: 255px;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    background-position: center;
+
+}
+.mul_img2{
+    background-image: url(../img/image\ 18\ \(1\).png);
+}
+.mul_img3{
+    background-image: url(../img/image\ 18\ \(2\).png);
+    background-position-y: -34px ;
+}
+.mul_img i{
+    margin:10px;
+    
+}
+.card span{
+    font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: -0.0008em;
+color: #1A265C;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.card span p{
+    font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+color: #617EFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.myinput{
+    padding: 24px 20px;
+    width: 90%;
+    color: #A4AFE5;
+    background-color: #F3F5FC;
+    border: 1px solid #A4AFE5;
+border-radius: 15px;
+    font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+
+
+}
+.spbtw button{
+    background: #1A265C;
+    border-radius: 15px;
+    padding: 14px 24px;
+
+}
+.mytable{
+    border-radius: 10px;
+    background-color: #DFE3F6;
+}
+
+.borderrad{
+    border-bottom: 1px solid gray;
+    border-radius: 10px;
+}
+
+.mytable td{
+    color: #1A265C;
+
+}
+
+.mytabletop {
+    background: #1A265C;
+border-radius: 15px 15px 0px 0px;
+font-family: 'Albert Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 25px;
+
+/* Blue/BG 2 */
+
+color: #DFE3F6;
+
+}
+
+
+
+.carousel-control .right{
+    background-image: none !important;
+}
+.carousel-control .left{
+    background-image: none;
+}
